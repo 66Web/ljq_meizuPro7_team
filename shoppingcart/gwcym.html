@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- 1、指定基础语言 -->
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <!--2、指定视口信息-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!--3、指定跨IE浏览器兼容性-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title></title>
+    <!--4、引入 Bootstrap.css-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/gwc.css"/>
+    <!--5、引入两个兼容性文件(老IE)-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!--购物车导航条-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="../index/index.html" class="navbar-brand">
+                <img src="img/tp/logo.png" alt=""/>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="ygwc">
+            <ul class="nav navbar-nav">
+                <li><a href="#">购物车</a></li>
+                <li><a href="#">&gt</a></li>
+                <li><a href="#">确认订单</a></li>
+                <li><a href="#">&gt</a></li>
+                <li><a href="#">在线支付</a></li>
+                <li><a href="#">&gt</a></li>
+                <li><a href="#">完成</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">我的订单</a></li>
+                <li><a href="../regist/login.html">登录</a></li>
+                <li><a href="../regist/register.html">注册</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--商品-->
+<div class="container">
+    <div id="ysc">
+        <table id="ycart">
+            <thead>
+                <tr>
+                    <th>
+                        <input type="checkbox" id="yscqx"/>
+                        <label for="sel">全选</label>
+                    </th>
+                    <th>商品</th>
+                    <th>单价（元）</th>
+                    <th>数量</th>
+                    <th>小计</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--<tr>-->
+                    <!--<td>-->
+                        <!--<input type="checkbox"/>-->
+                        <!--<input type="hidden" value="1"/>-->
+                        <!--<div>-->
+                            <!--<img src="img/tp/14.png" alt=""/>-->
+                        <!--</div>-->
+                    <!--</td>-->
+                    <!--<td><a href="#">PRO 6S</a></td>-->
+                    <!--<td>2299</td>-->
+                    <!--<td>-->
+                        <!--<button>-</button>-->
+                        <!--<input type="text" value="1"/>-->
+                        <!--<button>+</button>-->
+                    <!--</td>-->
+                    <!--<td><span>2299</span></td>-->
+                    <!--<td><a href="#">x</a></td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>-->
+                        <!--<input type="checkbox"/>-->
+                        <!--<input type="hidden" value="2"/>-->
+                        <!--<div>-->
+                            <!--<img src="img/tp/15.png" alt=""/>-->
+                        <!--</div>-->
+                    <!--</td>-->
+                    <!--<td><a href="#">MX6</a></td>-->
+                    <!--<td>1599</td>-->
+                    <!--<td>-->
+                        <!--<button>-</button>-->
+                        <!--<input type="text" value="1"/>-->
+                        <!--<button>+</button>-->
+                    <!--</td>-->
+                    <!--<td><span>1599</span></td>-->
+                    <!--<td><a href="#">x</a></td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>-->
+                        <!--<input type="checkbox"/>-->
+                        <!--<input type="hidden" value="3"/>-->
+                        <!--<div>-->
+                            <!--<img src="img/tp/23.jpg" alt=""/>-->
+                        <!--</div>-->
+                    <!--</td>-->
+                    <!--<td><a href="#">魅蓝 5S</a></td>-->
+                    <!--<td>799</td>-->
+                    <!--<td>-->
+                        <!--<button>-</button>-->
+                        <!--<input type="text" value="1"/>-->
+                        <!--<button>+</button>-->
+                    <!--</td>-->
+                    <!--<td><span>799</span></td>-->
+                    <!--<td><a href="#">x</a></td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                    <!--<td>-->
+                        <!--<input type="checkbox"/>-->
+                        <!--<input type="hidden" value="4"/>-->
+                        <!--<div>-->
+                            <!--<img src="img/tp/27.png" alt=""/>-->
+                        <!--</div>-->
+                    <!--</td>-->
+                    <!--<td><a href="#">魅蓝 Max</a></td>-->
+                    <!--<td>1699</td>-->
+                    <!--<td>-->
+                        <!--<button>-</button>-->
+                        <!--<input type="text" value="1"/>-->
+                        <!--<button>+</button>-->
+                    <!--</td>-->
+                    <!--<td><span>1699</span></td>-->
+                    <!--<td><a href="#">x</a></td>-->
+                <!--</tr>-->
+            </tbody>
+        </table>
+        <footer id="ycart_footer">
+            <div>
+                总价：<span></span>
+                <button>去结算</button>
+            </div>
+        </footer>
+        <div id="shine"></div>
+    </div>
+</div>
+<!--6、引入 行为依赖 文件-->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/cart.js"></script>
+
+</body>
+</html>

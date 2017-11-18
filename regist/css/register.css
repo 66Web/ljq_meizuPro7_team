@@ -1,0 +1,96 @@
+body{
+    background: url("../Image/banner.png") repeat-x;
+    overflow: hidden;
+}
+
+a:hover{text-decoration: none}
+.container-fluid{
+    padding:0;
+    margin:0;
+}
+.bg_img>img{
+    width:100%;
+}
+#logo>div{
+    margin:3% 0 1% 5%;
+    position:absolute;
+    top:2%;left:3%;
+    z-index: 10;
+}
+.main_content{
+    position:relative;
+}
+/*register*/
+#register{
+    background: #C2EDFB;
+    position:absolute;
+    top:10%;  right:-35%;left:0;bottom:0;
+    margin:0 auto;
+    width:25%;
+    height: 50%;
+    padding: 4% 2% 2% 2%;
+    z-index: 1;
+}
+#msg{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.tab-title{
+    margin-top:1%;
+    text-align: center;
+}
+
+.tab-title>a{
+    margin:0 3%;
+    color: #000;
+    font-size: 1.2em;
+}
+#register>*{
+    height:12%;
+    width:100%;
+}
+#register>div:nth-child(2){
+    margin-top:5%
+}
+#register>input:nth-child(4){
+    margin-top:10%
+}
+#register>input:nth-child(5){
+    margin-top:10%
+}
+#register>div:nth-child(6) {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 992px){
+    #register{
+        right:0;
+        width:40%;
+        top:15%;
+    }
+}
+@media screen and (max-width: 766px){
+    #register{
+        right:0;
+        width:70%;
+        top:15%;
+    }
+}
+/*-----------------------------------*/
+@media screen  and (max-width: 991px){
+    #register{
+        right:0;
+        width:40%;
+        top:15%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #register{
+        width:60%;
+    }
+    .tab-title1>a,.tab-title2>a{
+        font-size: 0.9em;
+    }
+}

@@ -1,0 +1,900 @@
+@import "bootstrap.css";
+/* 1.总布局*/
+body {
+  font: 12px "microsoft yahei", arial, helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h3 {
+  font-size: 42px;
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+}
+span {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+#mw-3 a,
+#mw-4 a,
+#mw-5 a,
+#mw-7 a,
+#mw-9 a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #00C3F5;
+  font-size: 20px;
+  padding-right: 20px;
+  background: url(../img/mw1.png) no-repeat right;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #00C3F5;
+  text-decoration: none;
+}
+img {
+  vertical-align: bottom;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+/************************************************************************/
+nav {
+  background: #333;
+}
+/********************************************主体***********************************************/
+section {
+  margin-top: 4%;
+  text-align: center;
+}
+section #mw-1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /*第一部分*/
+  /*第二部分*/
+  /*第三部分*/
+  /*第四部分*/
+}
+section #mw-1 .mw-f0 {
+  width: 100%;
+}
+section #mw-1 .mw-f1,
+section #mw-1 .mw-f2,
+section #mw-1 .mw-f3,
+section #mw-1 .mw-n0 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+section #mw-1 .mw-f11,
+section #mw-1 .mw-f12,
+section #mw-1 .mw-f13,
+section #mw-1 .mw-f14 {
+  width: 20%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+}
+section #mw-1 .mw-f11 {
+  top: 31%;
+  left: 14.1%;
+  transition: all 1s linear 1s;
+}
+section #mw-1 .mw-f12 {
+  top: 31%;
+  left: 34.3%;
+  transition: all 1s linear 2s;
+}
+section #mw-1 .mw-f13 {
+  top: 49%;
+  left: 14.1%;
+  transition: all 1s linear 2s;
+}
+section #mw-1 .mw-f14 {
+  top: 49%;
+  left: 34.3%;
+  transition: all 1s linear 2s;
+}
+section #mw-1 .mw-f1 {
+  transition: all 1s linear 3s;
+}
+section #mw-1 .mw-f21,
+section #mw-1 .mw-f22,
+section #mw-1 .mw-f23,
+section #mw-1 .mw-f24 {
+  width: 20%;
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+}
+section #mw-1 .mw-f21 {
+  bottom: 26.6%;
+  right: 25.2%;
+  transition: all 1s linear 5s;
+}
+section #mw-1 .mw-f22 {
+  bottom: 26.6%;
+  right: 5%;
+  transition: all 1s linear 6s;
+}
+section #mw-1 .mw-f23 {
+  bottom: 44.6%;
+  right: 5%;
+  transition: all 1s linear 7s;
+}
+section #mw-1 .mw-f24 {
+  bottom: 44.6%;
+  right: 25.2%;
+  transition: all 1s linear 8s;
+}
+section #mw-1 .mw-f2 {
+  transition: all 1s linear 9s;
+  z-index: 2;
+}
+section #mw-1 .mw-f31,
+section #mw-1 .mw-f32,
+section #mw-1 .mw-f33,
+section #mw-1 .mw-f34,
+section #mw-1 .mw-f35,
+section #mw-1 .mw-f36,
+section #mw-1 .mw-f37,
+section #mw-1 .mw-f38,
+section #mw-1 .mw-f39 {
+  width: 20%;
+  position: absolute;
+  z-index: 4;
+  opacity: 0;
+}
+section #mw-1 .mw-f31 {
+  top: 31%;
+  left: 34.7%;
+  transition: all 1s linear 10s;
+}
+section #mw-1 .mw-f32 {
+  top: 31%;
+  left: 54.8%;
+  transition: all 1s linear 11s;
+}
+section #mw-1 .mw-f33 {
+  top: 13%;
+  left: 14.6%;
+  transition: all 1s linear 12s;
+}
+section #mw-1 .mw-f34 {
+  top: 13%;
+  left: 34.7%;
+  transition: all 1s linear 12s;
+}
+section #mw-1 .mw-f35 {
+  top: 13%;
+  left: 54.8%;
+  transition: all 1s linear 12s;
+}
+section #mw-1 .mw-f36 {
+  top: 31%;
+  left: 14.6%;
+  transition: all 1s linear 12s;
+}
+section #mw-1 .mw-f37 {
+  top: 49%;
+  left: 14.6%;
+  transition: all 1s linear 12s;
+}
+section #mw-1 .mw-f38 {
+  top: 49%;
+  left: 34.7%;
+  transition: all 1s linear 12s;
+}
+section #mw-1 .mw-f39 {
+  top: 49%;
+  left: 54.8%;
+  transition: all 1s linear 12s;
+}
+section #mw-1 .mw-f3 {
+  z-index: 6;
+  transform: scale(1);
+  transition: opacity 1s linear 13s,transform 1s linear 14s;
+}
+section #mw-1 .mw-n0 {
+  opacity: 0;
+  z-index: 5;
+  transition: all 1s linear 13s;
+}
+section #mw-1 .mw-n1 {
+  z-index: 6;
+  opacity: 0;
+  position: absolute;
+  transform: rotate(90deg);
+  left: 19%;
+  top: -12%;
+  width: 58%;
+  transition: width 2s linear 15s,left 2s linear 15s,top 2s linear 15s, transform 2s linear 15s ,opacity 1s linear 14s;
+}
+section #mw-1 .mw-n2 {
+  z-index: 10;
+  opacity: 0;
+  width: 18%;
+  position: absolute;
+  left: 23%;
+  top: 5%;
+  transition: all 1.5s linear 17s;
+}
+section #mw-1 .mw-n3 {
+  z-index: 10;
+  opacity: 0;
+  transition: all 1.5s linear 17s;
+  position: absolute;
+  top: 32%;
+  right: 23%;
+}
+section #mw-1 .mw-n3 h1 {
+  text-align: left;
+  font-size: 48px;
+  margin-bottom: 7%;
+  color: #fff;
+}
+section #mw-1 .mw-n3 span {
+  margin: 0;
+  display: inline-block;
+  font-size: 48px;
+  color: #00C3F5;
+}
+section #mw-2 {
+  height: 100%;
+}
+section #mw-2 img {
+  width: 68%;
+  position: relative;
+  z-index: 10;
+  margin-top: -1%;
+  margin-bottom: -9%;
+  opacity: 0;
+  transition: all 1s linear;
+}
+section #mw-3 {
+  position: relative;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  background: url("../img/display-bg_c1d2e53.jpg") no-repeat center;
+  background-size: cover;
+  /*鸟*/
+}
+section #mw-3 > div > div {
+  padding-top: 8%;
+  position: relative;
+  z-index: 10;
+}
+section #mw-3 > div > div span {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear, transform 1s linear  ;
+}
+section #mw-3 > div > div h3 {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 0.5s, transform 1s linear  0.5s;
+}
+section #mw-3 > div > div p {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 1s, transform 1s linear  1s;
+}
+section #mw-3 > div > div a {
+  opacity: 0;
+  transition: opacity 1s linear 1.5s, transform 1s linear  1.5s;
+}
+section #mw-3 > div img {
+  position: relative;
+  width: 30%;
+  padding-top: 8%;
+  opacity: 0;
+  transition: opacity 2s linear 2s;
+  z-index: 100;
+}
+section #mw-3 #mw-bird {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: 7%;
+  margin-left: -13%;
+  width: 138px;
+  height: 308px;
+  z-index: 1;
+  background: url(../img/bird-animate_cd8495f.jpg) 27px 308px;
+}
+section #mw-4 {
+  position: relative;
+  z-index: 10;
+  background: #000106;
+  color: #fff;
+  padding-top: 7%;
+}
+section #mw-4 img {
+  padding-top: 8%;
+  width: 50%;
+  height: 100%;
+}
+section #mw-4 span {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear, transform 1s linear  ;
+}
+section #mw-4 h3 {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 0.5s, transform 1s linear  0.5s;
+}
+section #mw-4 p {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 1s, transform 1s linear  1s;
+}
+section #mw-4 a {
+  opacity: 0;
+  transition: opacity 1s linear 1.5s, transform 1s linear  1.5s;
+}
+section #mw-5 {
+  height: 100%;
+  width: 100%;
+  background: url("../img/design_7ac4b81.jpg") no-repeat center;
+  background-size: cover;
+}
+section #mw-5 img {
+  width: 100%;
+}
+section #mw-5 > div {
+  padding-top: 36%;
+  padding-bottom: 10%;
+}
+section #mw-5 > div span {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear, transform 1s linear  ;
+}
+section #mw-5 > div h3 {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 0.5s, transform 1s linear  0.5s;
+}
+section #mw-5 > div p {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 1s, transform 1s linear  1s;
+}
+section #mw-5 > div a {
+  opacity: 0;
+  transition: opacity 1s linear 1.5s, transform 1s linear  1.5s;
+}
+section #mw-6 {
+  height: 100%;
+  margin-top: -6%;
+}
+section #mw-6 .mw-phone1 {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  display: inline-block;
+  text-align: left;
+}
+section #mw-6 .mw-phone1 span {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear, transform 1s linear  ;
+}
+section #mw-6 .mw-phone1 h3 {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 0.5s, transform 1s linear  0.5s;
+}
+section #mw-6 .mw-phone1 p {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 1s, transform 1s linear  1s;
+}
+section #mw-6 .mw-phone1 div {
+  color: #666;
+}
+section #mw-6 .mw-phone1 div em {
+  display: block;
+  font-size: 36px;
+  padding-top: 18px;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0;
+  transform: translate(-20px, 0);
+  transition: opacity 0.5s linear 2s,transform 0.5s linear  2s;
+}
+section #mw-6 .mw-phone1 div strong {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0;
+  transform: translate(-20px, 0);
+  transition: opacity 0.5s linear 2.5s,transform 0.5s linear  2.5s;
+}
+section #mw-6 .mw-phone1 div i {
+  display: block;
+  margin-top: 18px;
+  height: 1px;
+  background: #eee;
+  width: 36px;
+  opacity: 0;
+  transform: translate(-20px, 0);
+  transition: opacity 0.5s linear 2.5s,transform 0.5s linear  2.5s;
+}
+section #mw-6 .mw-phone2 {
+  height: 100%;
+  display: inline-block;
+}
+section #mw-6 .mw-phone2 :nth-child(1) {
+  width: 42%;
+  position: relative;
+  z-index: 100;
+  transform: translate(0, 14%);
+}
+section #mw-6 .mw-phone2 :nth-child(2) {
+  width: 42%;
+  z-index: 1000;
+  position: relative;
+  margin-left: -19%;
+}
+section #mw-7 {
+  background: #060606;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+  /*图层圆阴影*/
+}
+section #mw-7 .mw-img1 {
+  position: relative;
+  z-index: 10;
+  padding-top: 6%;
+}
+section #mw-7 .mw-img1 span {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear, transform 1s linear  ;
+}
+section #mw-7 .mw-img1 h3 {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 0.5s, transform 1s linear  0.5s;
+}
+section #mw-7 .mw-img1 p {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 1s, transform 1s linear  1s;
+}
+section #mw-7 .mw-img1 a {
+  opacity: 0;
+  transition: opacity 1s linear 1.5s, transform 1s linear  1.5s;
+}
+section #mw-7 .mw-img2 {
+  overflow: hidden;
+  position: relative;
+}
+section #mw-7 .mw-img2 img {
+  width: 100%;
+  height: 100%;
+  padding-top: 2%;
+}
+section #mw-7 .mw-img2 .s1_cover {
+  position: absolute;
+  width: 129%;
+  height: 200%;
+  top: -48%;
+  left: -15%;
+  background: radial-gradient(transparent 1%, #060606 10%, #060606 100%);
+  transform: scale(1);
+}
+section #mw-7 .mw-img2 .s_cover {
+  animation: s1_cover 3s linear 1.5s forwards;
+}
+@keyframes s1_cover {
+  0% {
+    background: radial-gradient(transparent 1%, #060606 10%, #060606 100%);
+    transform: scale(1);
+  }
+  25% {
+    background: radial-gradient(transparent 2%, #060606 10%, #060606 100%);
+    transform: scale(2);
+  }
+  50% {
+    background: radial-gradient(transparent 3%, #060606 10%, #060606 100%);
+    transform: scale(3);
+  }
+  75% {
+    background: radial-gradient(transparent 4%, #060606 10%, #060606 100%);
+    transform: scale(4);
+  }
+  100% {
+    background: radial-gradient(transparent 5%, #060606 10%, #060606 100%);
+    transform: scale(5);
+  }
+}
+section #mw-8 {
+  background: #060606;
+  color: #fff;
+}
+section #mw-8 > div {
+  padding-top: 7%;
+}
+section #mw-8 > div span {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear, transform 1s linear  ;
+}
+section #mw-8 > div h3 {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 0.5s, transform 1s linear  0.5s;
+}
+section #mw-8 > div p {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 1s, transform 1s linear  1s;
+}
+section #mw-8 img {
+  padding-top: 8%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: all 1s linear  2s;
+}
+section #mw-9 {
+  background: #060606;
+  color: #fff;
+}
+section #mw-9 h4 {
+  padding-top: 1%;
+  opacity: 0;
+}
+section #mw-9 .mw-pro {
+  overflow: hidden;
+  position: relative;
+  width: 54%;
+  height: 450px;
+  margin: auto;
+  background: url("../img/mCharge-chart_1b53816.png") no-repeat scroll center center;
+}
+section #mw-9 .mw-pro .mw-p1 {
+  position: absolute;
+  height: 100%;
+  top: 21%;
+  left: 6%;
+  width: 0;
+  transition: width 2s linear;
+  background: url("../img/pro6plus-line_adf47d9.png") no-repeat;
+}
+section #mw-9 .mw-pro .mw-p2 {
+  position: absolute;
+  height: 100%;
+  top: 28%;
+  left: 6%;
+  width: 0;
+  transition: width 2s linear 2s;
+  background: url("../img/pro7-line_5028809.png") no-repeat;
+}
+section #mw-9 .mw-pro .mw-p3 {
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  top: 19%;
+  left: 6%;
+  opacity: 0;
+  transition: opacity 2s linear 4s;
+  background: url("../img/mCharge_9c82c4c.png") no-repeat;
+}
+section #mw-10 {
+  color: #fff;
+  text-align: left;
+  background: url("../img/mTouch_df5af91.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+section #mw-10 > div {
+  padding: 10% 0;
+}
+section #mw-10 > div span {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear, transform 1s linear  ;
+}
+section #mw-10 > div h3 {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 0.5s, transform 1s linear  0.5s;
+}
+section #mw-10 > div p {
+  opacity: 0;
+  transform: translate(0, 15px);
+  transition: opacity 1s linear 1s, transform 1s linear  1s;
+}
+#mw-11 {
+  position: relative;
+  text-align: center;
+  background: #F8F8F8;
+}
+#mw-11 p {
+  position: relative;
+  z-index: 110;
+  padding-top: 82px;
+  font-size: 18px;
+  line-height: 38px;
+  color: #999;
+}
+#mw-11 h2 {
+  position: relative;
+  z-index: 110;
+  font-size: 28px;
+  color: #32cef6;
+  padding-bottom: 82px;
+}
+#mw-11 a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  background: url("../img/footer-fenetre_9cf7531.jpg") no-repeat center;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+#mw-11:hover > a {
+  height: 160%;
+  top: -30%;
+  opacity: 1;
+}
+#mw-11:hover h2,
+#mw-11:hover p {
+  color: #fff;
+}
+.modalShadow {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  opacity: 0.5;
+  background-color: #000;
+}
+#mw-12 {
+  color: #A09C9B;
+  padding: 4% 5%;
+  font-size: 12px;
+  border-bottom: 1px solid #DFDFDF;
+}
+/*********响应式**************/
+/*字体*/
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 0.8em  !important;
+  }
+  h1 span {
+    font-size: 0.8em  !important;
+  }
+  span {
+    margin-bottom: 0;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 0.5em;
+  }
+  a {
+    margin-top: 0;
+  }
+  em {
+    font-size: 1.8em !important;
+  }
+}
+@media screen and (min-width: 381px) and (max-width: 700px) {
+  h1 {
+    font-size: 1.8em  !important;
+  }
+  h1 span {
+    font-size: 1.8em  !important;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;
+  }
+  em {
+    font-size: 2em !important;
+  }
+}
+/*调试*/
+@media screen and (min-width: 992px) and (max-width: 1250px) {
+  #mw-bird {
+    transform: translate(-23px, 0);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section {
+    margin-top: 12%;
+  }
+  #mw-bird {
+    transform: translate(-23px, 0) scale(0.6);
+    margin-top: 3% !important;
+  }
+  #mw-9 .mw-pro {
+    width: 78%;
+    transform: scale(0.8);
+  }
+}
+@media screen and (min-width: 860px) and (max-width: 991px) {
+  section {
+    margin-top: 6%!important;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 767px) {
+  section {
+    margin-top: 12%;
+  }
+  #mw-bird {
+    transform: translate(-50px, 0) scale(0.4);
+    margin-top: -4% !important;
+  }
+  #mw-9 .mw-pro {
+    transform: scale(0.5);
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  #mw-bird {
+    margin-top: -4% !important;
+    transform: translate(-58px, -10px) scale(0.2);
+  }
+  #mw-9 .mw-pro {
+    height: 0 !important;
+  }
+  section {
+    margin-top: 20%;
+  }
+}
+/**************************************footer****************************/
+.ser_list {
+  padding: 5% 0;
+}
+.ser_list > div {
+  padding: 0 0 2% 7%;
+}
+.ser_list > div > a {
+  color: #8f8f8f;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 2;
+}
+.ser_way {
+  text-align: center;
+  padding-top: 3%;
+}
+#hot_line > div:nth-child(1) {
+  font-size: 0.9em;
+  color: #8f8f8f;
+}
+#hot_line > div:nth-child(2) {
+  font-size: 1.6em;
+  color: #00C3F5;
+}
+.ser_way > div:nth-child(2) {
+  background: #00C3F5;
+  color: #fff;
+  width: 150px;
+  line-height: 40px;
+  margin: 4% auto;
+}
+.ser_way > div:nth-child(2) > a {
+  color: #fff;
+  margin-left: 10%;
+}
+.clear_fix ul {
+  list-style: none;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: flex-start;
+  color: #8f8f8f;
+}
+.ft_ul1,
+.ft_ul2 {
+  padding: 0 3%;
+  font-size: 0.7em;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.clear_fix .ft_ul1 > li {
+  display: block;
+  margin: 0 1.5%;
+}
+.ft_ul1 > li:last-child {
+  display: flex;
+}
+.ft_ul1 > li:last-child > div {
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.ft_ul1 > li:last-child > div > img {
+  width: 90%;
+}
+.clear_fix ul > li > a {
+  color: #8f8f8f;
+  font-size: 12px;
+}
+.clear_fix .ft_ul2 > li:first-child {
+  margin: 0 0 2% 1.5% ;
+}
+.clear_fix .ft_ul2 > li:not(:first-child) {
+  margin: 0 0 2% 1%;
+}
+@media screen and (max-width: 767px) {
+  .ser_list,
+  .ft_ul1 {
+    display: none !important;
+  }
+  .ser_way {
+    text-align: left;
+    content: "";
+    clear: both;
+    display: none;
+    margin-bottom: 3%;
+  }
+  #hot_line {
+    float: left;
+    margin-left: 7%;
+  }
+  .ser_way > div:nth-child(2) {
+    float: right;
+    text-align: center;
+    margin-right: 7%;
+  }
+  .ft_ul2 {
+    padding-left: 15px;
+  }
+  .ft_ul2 > li:not(:first-child),
+  .ft_ul2 .ft-ul3 {
+    display: none;
+  }
+}

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!-- 1、指定基础语言 -->
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <!--2、指定视口信息-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!--3、指定跨IE浏览器兼容性-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title>相机</title>
+    <!--4、引入 Bootstrap.css-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/camera.css"/>
+    <link rel="stylesheet" href="css/right.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+
+    <!--5、引入两个兼容性文件(老IE)-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#d1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../index/index.html" class="navbar-brand" id="logo"><img src="Image/logo.png" alt=""/></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="d1">
+            <ul class="nav navbar-nav">
+                <li><a href="../shopping_mall/shopping_mall.html">魅族商城</a></li>
+                <li class="prd_list">
+                    <a href="#">魅族手机</a>
+                </li>
+                <li class="prd_list">
+                    <a href="#">魅蓝手机</a>
+                </li>
+                <li class="prd_list">
+                    <a href="#">魅族声学</a>
+                </li>
+                <li class="prd_list">
+                    <a href="#">智能·配件</a>
+                </li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">专卖店</a></li>
+                <li><a href="#">Flyme</a></li>
+                <li><a href="#">社区</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="Image/user.png" alt=""/>
+                    </a>
+                    <ul id="login" class="dropdown-menu ">
+                        <li><a href="../regist/login.html">立即登录</a></li>
+                        <li><a href="../regist/register.html">立即注册</a></li>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">M码通道</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="lgwc">
+                        <img src="Image/cart.png" alt=""/>
+                    </a>
+                    <div class="dropdown-menu" id="sp_cart">
+                        <img src="Image/gwc.png" alt=""/>
+                        <div>
+                            <p> 登录后可显示</p>
+                            <p>您账号中已加入商品哦~</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="product pt0">
+        <ul>
+            <li><a href=""><img src="Image/1.png" alt=""/>魅族PRO7</a></li>
+            <li><a href=""><img src="Image/1.png" alt=""/>魅族Plus</a></li>
+            <li><a href=""><img src="Image/3.png" alt=""/>魅族Pro6s</a></li>
+            <li><a href=""><img src="Image/4.png" alt=""/>魅族MX6</a></li>
+            <li><a href=""><img src="Image/5.png" alt=""/>魅族PRO6</a></li>
+        </ul>
+    </div>
+    <div class="product pt1">
+        <ul>
+            <li><a href=""><img src="Image/11.png" alt=""/>魅蓝A5</a></li>
+            <li><a href=""><img src="Image/12.png" alt=""/>魅蓝E2</a></li>
+            <li><a href=""><img src="Image/13.png" alt=""/>魅蓝5S</a></li>
+            <li><a href=""><img src="Image/14.png" alt=""/>魅蓝NOTE5</a></li>
+            <li><a href=""><img src="Image/15.png" alt=""/>魅蓝X</a></li>
+            <li><a href=""><img src="Image/16.png" alt=""/>魅蓝5</a></li>
+            <li><a href=""><img src="Image/17.png" alt=""/>魅蓝Max</a></li>
+            <li><a href=""><img src="Image/18.png" alt=""/>魅蓝E</a></li>
+        </ul>
+    </div>
+    <div class="product pt2">
+        <ul>
+            <li><a href=""><img src="Image/21.png" alt=""/>魅族Flow</a></li>
+            <li><a href=""><img src="Image/22.png" alt=""/>魅族蓝牙小音箱</a></li>
+            <li><a href=""><img src="Image/23.png" alt=""/>魅族EP2X</a></li>
+            <li><a href=""><img src="Image/24.png" alt=""/>魅族EP52</a></li>
+            <li><a href=""><img src="Image/25.png" alt=""/>魅族HD50</a></li>
+        </ul>
+    </div>
+    <div class="product pt3">
+        <ul>
+            <li><a href=""><img src="Image/31.png" alt=""/>魅族旅行包</a></li>
+            <li><a href=""><img src="Image/32.png" alt=""/>魅族手环</a></li>
+            <li><a href=""><img src="Image/33.png" alt=""/>智能手表MIX</a></li>
+            <li><a href=""><img src="Image/34.png" alt=""/>音乐智能保护套</a></li>
+            <li><a href=""><img src="Image/35.png" alt=""/>魅族盒子</a></li>
+            <li><a href=""><img src="Image/36.png" alt=""/>魅族双肩包</a></li>
+            <li><a href=""><img src="Image/37.png" alt=""/>环窗智能保护套</a></li>
+            <li><a href=""><img src="Image/38.png" alt=""/>路由器极速版</a></li>
+        </ul>
+    </div>
+    <div id="nav2">
+        <ul>
+            <li><a href="Image/">PRO 7</a></li>
+            <li><a href="../index/index.html">首页</a></li>
+            <li><a href="../summary/summary.html">概述</a></li>
+            <li><a href="../huaping/huaping.html">画屏</a></li>
+            <li><a href="../design/design.html">设计</a></li>
+            <li><a href="camera.html">相机</a></li>
+            <li><a href="../taste/taste.html">体验</a></li>
+            <li><a href="../argument/argument.html">参数</a></li>
+            <li><a href="#">立即购买</a></li>
+        </ul>
+    </div>
+</nav>
+  <div class="container-fluid">
+      <div class="first-picture">
+          <h1 class="show_1 animated fadeInUp  ">双摄如瞳,明眸善睐</h1>
+             <img src="img/slogan_cab2c6f.jpg" alt=""/>
+      </div>
+      <div class="mian">
+       <!--介绍-->
+      <div class="intro">
+          <h5>索尼双镜头</h5>
+          <h1>尽情挥洒，视界无限</h1>
+          <p>PRO 6 Plus 上的单颗索尼 IMX386 镜头就足以让人惊叹，但 PRO 7 还想做得更多。<br>
+              双 1200 万有效像素索尼摄像头，让记录美更加轻而易举。<br>
+              反复调校的算法加上新升级的影像处理芯片共同成就了 PRO 7 的影像新突破。<br>
+          </p>
+          <div class="dt">以下照片由PRO 7 Plus 拍摄</div>
+      </div>
+       <!--鼠标滑动图片-->
+      <div class="slider">
+          <ul>
+              <li>
+                <img src="img/photos-1_f374de9.jpg"  alt=""/>
+              </li>
+              <li>
+                <img src="img/photos-2_5e2b42d.jpg" alt=""/>
+              </li>
+              <li>
+                  <img src="img/photos-3_6f2956d.jpg" alt=""/>
+              </li>
+              <li>
+                  <img src= "img/photos-4_f09dcb3.jpg" alt=""/>
+              </li>
+              <li>
+                  <img src= "img/photos-5_a4cbe4f.jpg" alt=""/>
+              </li>
+              <li>
+                  <img src= "img/photos-6_8f63ad2.jpg" alt=""/>
+              </li>
+          </ul>
+      </div>
+          <!--相机图片-->
+      <div class="slow">
+          <img src="img/camera_39db950.jpg" alt=""/>
+          <div class="fff1">
+              <h5>后置双摄自拍</h5>
+              <h1>后发制人，从容自若</h1>
+              <p>
+                  后置双摄与画屏的巧妙组合，为自拍创造了新的可能性。<br>
+                  精心调校的美颜和虚化算法，让拍照更有乐趣。您的每一个细微表情，<br>
+                  都能在画屏上实时呈现，让您的美丽，更加清晰可辨。<br>
+              </p>
+          </div>
+      </div>
+      <div class="show_1">
+          <img src="img/camera2_46cbeeb.jpg" alt=""/>
+          <div class="show_1-1">
+              <h5>前置1600万像素</h5>
+              <h1>四像合一，慧眼独具</h1>
+              <p>
+                  惊人的1600万像素前置摄像头，让您的每一抹笑容，都纤毫毕现<br>
+                  曙光环境下，自动开启像素四合一算法，感光性能提升近一倍，让您光彩尽现<br>
+              </p>
+          </div>
+      </div>
+      <div class="show_2">
+          <img src="img/2323.jpg" alt=""/>
+          <img src="img/lens-phone_835e0d1.png" alt=""/>
+          <div class="ff1">
+           <h5>
+              <span class="active">虚</span>
+              <span class="active1">化</span>
+              <span class="active2"> 模</span>
+              <span class="big">式</span>
+           </h5>
+           <h1>
+               <span class="big1">虚</span>
+               <span class="big2">实</span>
+               <span class="big4">相</span>
+               <span class="big5">生</span>
+               <span class="big6">一</span>
+               <span class="big7">拍</span>
+               <span class="big8">即</span>
+               <span class="big9">成</span>
+           </h1>
+           <p>
+               <span class="big10">虚</span>
+               <span class="active1">化</span>
+               <span class="active2">效</span>
+               <span class="active">果</span>
+               <span class="big7">的</span>
+               <span class="big5">加</span>
+               <span class="big1">入</span>
+               <span class="big4">可</span>
+               <span class="big8">以</span>
+               <span class="big9">让</span>
+               <span class="big3">您</span>
+               <span class="big6">享</span>
+               <span class="big10">受</span>
+               <span class="active2">单</span>
+               <span class="big5">反</span>
+               <span class="big">般</span><!--16-->
+               <span class="big9">的</span>
+               <span class="big4">摄</span>
+               <span class="big8">影</span>
+               <span class="big4">乐</span>
+               <span class="big3">趣</span><!--21-->
+               <br>
+               <span class="big9">为</span>
+               <span class="big6">此</span>
+               <span class="big7">我</span>
+               <span class="big8">们</span>
+               <span class="active1">选</span>
+               <span class="active2">取</span>
+               <span class="active">了</span>
+               <span class="big10">7</span>
+               <span class="big5">5</span>
+               <span class="big8">个</span>
+               <span class="big6">场</span>
+               <span class="big10">景</span>
+               <span class="big9">做</span>
+               <span class="big2">了</span>
+               <span class="big5">针</span>
+               <span class="big4">对</span>
+               <span class="big2">性</span>
+               <span class="big3">的</span>
+               <span class="big7">优</span><!--40-->
+               <span class="big6">化</span>
+               <span class="big8">和</span>
+               <span class="big10">调</span>
+               <span class="big9">校</span>
+               <span class="big2">使</span>
+               <span class="active">得</span>
+               <span class="active1">P</span>
+               <span class="active2">R</span>
+               <span class="big10">O</span>
+               <span class="big3">7</span>
+               <span class="big8">能</span>
+               <span class="big5">够</span>
+               <span class="big7">更</span>
+               <span class="big10">好</span>
+               <span class="active1">地</span>
+               <span class="big4">突</span>
+               <span class="big1">出</span>
+               <span class="big9">被</span>
+               <span class="active">摄</span>
+               <span class="big2">主</span>
+               <span class="big5">体</span>
+               <br>
+               <span class="big10">您</span>
+               <span class="big5">的</span>
+               <span class="big3">指</span>
+               <span class="big2">尖</span>
+               <span class="big1">所</span>
+               <span class="big6">点</span>
+               <span class="big8">就</span>
+               <span class="big9">是</span>
+               <span class="big">焦</span>
+               <span class="big10">点</span>
+               <br>
+            </p>
+          </div>
+      </div>
+        <div class="show_3">
+           <img src="img/dark_956c2a1.jpg" alt=""/>
+          </div>
+          <div class="show_4">
+              <img src="img/dark-phone_61b75a2.png" class="img_1"/>
+              <img src="img/black_9bebd09.jpg" alt=""/>
+              <img src="img/tower_c2f6768.jpg" alt=""/>
+              <div class="show_4-1">
+                  <h5>黑白模式</h5>
+                  <h1>缤纷黑白，化简为繁</h1>
+                  <p>
+                      不同于黑白滤镜所带来的后期效果，<br>
+                      PRO7 自带的黑白摄像头呈现出来的黑白影像能够保留更多的细节和层次感。<br>
+                      方寸之间，功力尽显。<br>
+                  </p>
+              </div>
+          </div>
+          <div class="slider_1">
+                  <ul>
+                      <li>
+                          <img src="img/black-1_b0a8795.jpg"  alt=""/>
+                      </li>
+                      <li>
+                          <img src="img/black-2_46ad17a.jpg" alt=""/>
+                      </li>
+                      <li>
+                          <img src="img/black-3_8136f7d.jpg" alt=""/>
+                      </li>
+                      <li>
+                          <img src= "img/black-4_285dfb9.jpg" alt=""/>
+                      </li>
+                      <li>
+                          <img src= "img/black-5_ae646c9.jpg" alt=""/>
+                      </li>
+
+                  </ul>
+              <div class="icon">
+
+              </div>
+          </div>
+          <!--继续了解-->
+          <div id="camera">
+              <div>
+                  <p>继续了解</p>
+                  <h2>PRO7&nbsp;&bull;&nbsp;体验</h2>
+              </div>
+              <a href="../taste/taste.html"></a>
+          </div>
+          <div id="shadow"></div>
+
+          <div id="hu-12">
+              <div>
+                  <ul>
+                      <li>注：</li>
+                      <li>
+                          1. 除非经特殊标注说明，本网站中所涉及的任何数据均为魅族实验室内部测试结果，在不同的客观环境下，数据会有不同程度的误差，请以实机体验为准。
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <!--footer-->
+          <div id="footer" class="container-fluid">
+              <div class="row">
+                  <div class="col-xs-9">
+                      <div class="ser_list row">
+                          <div class="col-xs-3"><img src="img/sm_07.png" alt=""/><a href="">全场包邮</a></div>
+                          <div class="col-xs-3"><img src="img/sm_02.png" alt=""/><a href="">百城速达</a></div>
+                          <div class="col-xs-3"><img src="img/sm_11.png" alt=""/><a href="">7天无理由退货</a></div>
+                          <div class="col-xs-3"><img src="img/sm_13.png" alt=""/><a href="">15天换货保障</a></div>
+                          <div class="col-xs-3"><img src="img/sm_03.png" alt=""/><a href="">1年免费保修</a></div>
+                          <div class="col-xs-3"><img src="img/sm_05.png" alt=""/><a href="">2300+线下体验店</a></div>
+                          <div class="col-xs-3"><img src="img/sm_10.png" alt=""/><a href="">远程支持服务</a></div>
+                          <div class="col-xs-3"><img src="img/sm_15.png" alt=""/><a href="">上门快修</a></div>
+                      </div>
+                  </div>
+                  <div class="ser_way col-xs-3">
+                      <div>24小时全国服务热线</div>
+                      <div>400-788-3333</div>
+                      <div><img src="img/sm_18.png" alt=""/>&nbsp;在线客服</div>
+                  </div>
+              </div>
+              <div class="clear_fix row">
+                  <div class="col-xs-12">
+                      <ul class="ft_ul1">
+                          <li><a href="">了解魅族</a></li>|
+                          <li><a href="">加入我们</a></li>|
+                          <li><a href="">联系我们</a></li>|
+                          <li><a href="">flyme</a></li>|
+                          <li><a href="">魅族社区</a></li>|
+                          <li><a href="">天猫旗舰店</a></li>|
+                          <li><a href="">问题反馈</a></li>|
+                          <li><a href="">线上销售权名单显示</a></li>|
+                          <li data-toggle="modal" data-target="#myModal">
+                              <div><img src="img/china.png" alt=""/></div>
+                              中文
+                          </li>
+                      </ul>
+                      <ul class="ft_ul2">
+                          <li>©2017 Meizu Telecom Equipment Co., Ltd. All rights reserved. </li>
+                          <li><a href="">粤ICP备13003602号</a></li>
+                          <li><a href="">合字B2-20170010</a></li>
+                          <li><a href="">营业执照</a></li>
+                          <li><a href="">法律声明</a></li>
+                          <li><img src="img/sm_08.png" alt=""/></li>
+                          <li><a href="">粤公网安备 44049102496009 号</a></li>
+                          <li><img src="img/sm_01.png" alt=""/></li>
+                          <li><img src="img/sm_06.png" alt=""/></li>
+                          <li><img src="img/sm_04.png" alt=""/></li>
+                          <li><img src="img/sm_09.png" alt=""/></li>
+                          <li><img src="img/sm_14.png" alt=""/></li>
+                          <li><img src="img/sm_12.png" alt=""/></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+    </div>
+  </div>
+<div class="toolbar all_bot_right container-fluid">
+    <a href="../shoppingcart/gwcym.html" class="toolbar-item toolbar-item-shopping"></a>
+    <a class="toolbar-item toolbar-item-app">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a href="javascript:scroll(0,0)" id="top" class="toolbar-item toolbar-item-top">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a  class="toolbar-item toolbar-item-weixin">
+        <span class="toolbar-layer"></span>
+    </a>
+</div>
+
+<!--6、引入 行为依赖 文件-->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<!--7、引入测试的JS文件-->
+<!--<script src="js/bootlint.js"></script>-->
+  <script src="js/camera.js"></script>
+<script src="js/nav.js"></script>
+
+</body>
+</html>

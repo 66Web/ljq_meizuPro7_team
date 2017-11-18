@@ -1,0 +1,157 @@
+/*熊猫*/
+#yxm{
+    float: left;
+}
+#yxm>img{
+    padding-left:600px;
+    padding-top: 200px;
+}
+/*字体与登录*/
+#ydl{
+    display: inline-block;
+    padding-top: 240px;
+}
+#ydl>b{
+    font-size: 22px;
+}
+#ydl>b,#ydl>p{
+    margin-bottom:30px;
+    margin-top: 30px;
+}
+#ydl>button{
+    width: 140px;
+    height: 40px;
+}
+/*购物篮*/
+#ycart{
+    border: 1px solid #f1f1f1;
+    border-top:2px solid #aaa;
+    width:100%;
+    background-color: #fcfffa;
+    margin:0px auto;
+    margin-top:50px;
+    border-collapse: collapse;
+}
+#ycart td,#ycart th{
+    min-height:40px;
+    line-height:40px;
+    border-top:1px solid #f1f1f1;
+    border-bottom:1px solid #f1f1f1;
+    padding:5px;
+    vertical-align: top;
+    text-align: left;
+}
+#ycart thead input{
+    vertical-align: middle;
+}
+#ycart tbody input[type='checkbox']{
+    float:left;
+    margin-right: 10px;
+}
+#ycart tbody div{
+    border:1px solid #f1f1f1;
+    padding:5px;
+    float:left;
+    width:90px;
+    height:80px;
+    text-align: center;
+}
+#ycart tbody img {
+    width:90%;
+}
+#ycart a{
+    text-decoration:none;
+    color:#666;
+}
+#ycart a:hover{
+    color:#E4393C;
+}
+#ycart tbody td span{
+    font-weight: bold;
+}
+#ycart tbody td input[type='text']{
+    border:1px solid #CACBCB;
+    border-left:0;
+    border-right:0;
+    height:20px;
+    width:40px;
+    padding:0;
+    text-align: center;
+}
+#ycart tbody td button{
+    border:1px solid #CACBCB;
+    height:20px;
+    width:20px;
+    padding:0;
+    background-color: #fff;
+    box-sizing:content-box;
+    line-height: 0;
+}
+#ycart_footer{
+    position: fixed;
+    width:100%;
+    height:80px;
+    bottom:0;
+    left:0;
+    background-color: #fff;
+    box-shadow: 0 -1px 8px rgba(0,1,1,.08);
+    z-inxe:10000;
+}
+#ycart_footer>div{
+    text-align: right;
+    margin:10px auto;
+    width:800px;
+    height:52px;
+    line-height: 52px;
+}
+#ycart_footer>div>span{
+    font-size: 16px;
+    color: #e4393c;
+    font-weight: 700;
+}
+#ycart_footer>div>button{
+    display: inline-block;
+    width: 96px;
+    height: 52px;
+    overflow: hidden;
+    background-color:#E54346;
+    border:0;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "microsoft yahei";
+    margin-left:20px;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*transition过渡：某种样式属性（数值）在一段时间内缓慢变化*/
+#ycart tbody img{
+    transition: transform 0.5s linear;
+}
+
+/*transform：转换（变形：放大、移动、旋转、skew）*/
+#ycart tbody img:hover{
+    transform:scale(1.1);
+    /*transform:rotate(45deg);*/
+}
+
+#ycart:hover::before{
+    transition: left 3s;
+    left: 1360px;
+}
+#ycart:before{
+    /*border:1px solid red;*/
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 400px;
+    top: 180px;
+    left: -150px;
+    overflow: hidden;
+    background-image: linear-gradient(to right,rgba(255,255,255,0.2) 0,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.2) 100%);
+    transform: skewX(-25deg);
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<!-- 1、指定基础语言 -->
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <!--2、指定视口信息-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!--3、指定跨IE浏览器兼容性-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title></title>
+    <!--4、引入 Bootstrap.css-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/taste.css"/>
+    <link rel="stylesheet" href="css/right.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+    <!--5、引入两个兼容性文件(老IE)-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#d1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../index/index.html" class="navbar-brand" id="logo"><img src="Image/logo.png" alt=""/></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="d1">
+            <ul class="nav navbar-nav">
+                <li><a href="../shopping_mall/shopping_mall.html">魅族商城</a></li>
+                <li class="prd_list">
+                    <a href="#">魅族手机</a>
+                </li>
+                <li class="prd_list">
+                    <a href="#">魅蓝手机</a>
+                </li>
+                <li class="prd_list">
+                    <a href="#">魅族声学</a>
+                </li>
+                <li class="prd_list">
+                    <a href="#">智能·配件</a>
+                </li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">专卖店</a></li>
+                <li><a href="#">Flyme</a></li>
+                <li><a href="#">社区</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="Image/user.png" alt=""/>
+                    </a>
+                    <ul id="login" class="dropdown-menu ">
+                        <li><a href="../regist/login.html">立即登录</a></li>
+                        <li><a href="../regist/register.html">立即注册</a></li>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">M码通道</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="lgwc">
+                        <img src="Image/cart.png" alt=""/>
+                    </a>
+                    <div class="dropdown-menu" id="sp_cart">
+                        <img src="Image/gwc.png" alt=""/>
+                        <div>
+                            <p> 登录后可显示</p>
+                            <p>您账号中已加入商品哦~</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="product pt0">
+        <ul>
+            <li><a href=""><img src="Image/1.png" alt=""/>魅族PRO7</a></li>
+            <li><a href=""><img src="Image/1.png" alt=""/>魅族Plus</a></li>
+            <li><a href=""><img src="Image/3.png" alt=""/>魅族Pro6s</a></li>
+            <li><a href=""><img src="Image/4.png" alt=""/>魅族MX6</a></li>
+            <li><a href=""><img src="Image/5.png" alt=""/>魅族PRO6</a></li>
+        </ul>
+    </div>
+    <div class="product pt1">
+        <ul>
+            <li><a href=""><img src="Image/11.png" alt=""/>魅蓝A5</a></li>
+            <li><a href=""><img src="Image/12.png" alt=""/>魅蓝E2</a></li>
+            <li><a href=""><img src="Image/13.png" alt=""/>魅蓝5S</a></li>
+            <li><a href=""><img src="Image/14.png" alt=""/>魅蓝NOTE5</a></li>
+            <li><a href=""><img src="Image/15.png" alt=""/>魅蓝X</a></li>
+            <li><a href=""><img src="Image/16.png" alt=""/>魅蓝5</a></li>
+            <li><a href=""><img src="Image/17.png" alt=""/>魅蓝Max</a></li>
+            <li><a href=""><img src="Image/18.png" alt=""/>魅蓝E</a></li>
+        </ul>
+    </div>
+    <div class="product pt2">
+        <ul>
+            <li><a href=""><img src="Image/21.png" alt=""/>魅族Flow</a></li>
+            <li><a href=""><img src="Image/22.png" alt=""/>魅族蓝牙小音箱</a></li>
+            <li><a href=""><img src="Image/23.png" alt=""/>魅族EP2X</a></li>
+            <li><a href=""><img src="Image/24.png" alt=""/>魅族EP52</a></li>
+            <li><a href=""><img src="Image/25.png" alt=""/>魅族HD50</a></li>
+        </ul>
+    </div>
+    <div class="product pt3">
+        <ul>
+            <li><a href=""><img src="Image/31.png" alt=""/>魅族旅行包</a></li>
+            <li><a href=""><img src="Image/32.png" alt=""/>魅族手环</a></li>
+            <li><a href=""><img src="Image/33.png" alt=""/>智能手表MIX</a></li>
+            <li><a href=""><img src="Image/34.png" alt=""/>音乐智能保护套</a></li>
+            <li><a href=""><img src="Image/35.png" alt=""/>魅族盒子</a></li>
+            <li><a href=""><img src="Image/36.png" alt=""/>魅族双肩包</a></li>
+            <li><a href=""><img src="Image/37.png" alt=""/>环窗智能保护套</a></li>
+            <li><a href=""><img src="Image/38.png" alt=""/>路由器极速版</a></li>
+        </ul>
+    </div>
+    <div id="nav2">
+        <ul>
+            <li><a href="">PRO 7</a></li>
+            <li><a href="../index/index.html">首页</a></li>
+            <li><a href="../summary/summary.html">概述</a></li>
+            <li><a href="../huaping/huaping.html">画屏</a></li>
+            <li><a href="../design/design.html">设计</a></li>
+            <li><a href="../camera/camera.html">相机</a></li>
+            <li><a href="taste.html">体验</a></li>
+            <li><a href="../argument/argument.html">参数</a></li>
+            <li><a href="#">立即购买</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="section s0 row">
+        <div id="stars" class="col-xs-12">
+            <canvas id="can1"></canvas>
+            <div><img src="Image/starshine_fbdde86.png"/></div>
+            <div><img src="Image/phone-black_f8b42d1.png" alt=""/></div>
+        </div>
+        <div class="text-center text0 col-xs-12">
+            <h2>强劲性能，持久动力</h2>
+        </div>
+    </div>
+    <div class="section s1 row">
+        <div class="col-xs-12">
+            <div><img src="Image/x30_189b6fa.jpg" alt=""/></div>
+            <div class="s1_cover"></div>
+        </div>
+        <div class="text-center text1 col-xs-12">
+            <h4>helio X30</h4>
+            <h2>澎湃动力，收放自如</h2>
+            <h5>
+                采用更先进 10 纳米制程工艺的 Helio X301 处理器，
+                相比 Helio X25，在同等功耗下，CPU 性能提升 100%2
+            <br><br>
+                在同等性能下，功耗降低 50%2。实现了性能与功耗更好的平衡，持续输出强大动力。
+            </h5>
+        </div>
+    </div>
+    <div class="section s2 row">
+        <div class="wifi col-xs-12">
+            <canvas></canvas>
+            <div class="wifi-stage">
+                <div class="s-wifi wifi1"></div>
+                <div class="s-wifi wifi2"></div>
+                <div class="s-wifi wifi3"></div>
+                <div class="s-wifi wifi4"></div>
+            </div>
+        </div>
+        <div class="text-center text2 col-xs-12">
+            <h4>4G & WiFi ELNA 放大器</h4>
+            <h2>大象无形，倍道而进</h2>
+            <h5>
+                这一次，我们为 PRO 7 配备了内置的 4G & WiFi 信号放大器，
+            <br><br>
+                大幅提升 PRO 7 在 4G 和 WiFi 环境下的信号接受能力，有效减少信号盲区。
+            </h5>
+        </div>
+    </div>
+    <div class="section s3 row">
+        <div class="col-xs-12">
+            <div><img src="Image/music_3716bab.jpg" alt=""/></div>
+        </div>
+        <div class="text-center text3 col-xs-12">
+            <h4>音乐</h4>
+            <h2>「声」临其境，律动心弦</h2>
+            <h5>
+                音乐是魅族始终如一的坚持，为此，我们为 PRO 7 带来了一颗独立音频处理芯片 CS 43130 。
+            <br><br>
+                高动态、低失真、大推力，使得声音的每一处细节都纯净自然、悠扬悦耳，
+            <br><br>
+                为您带来「声」临其境的听觉享受。
+            </h5>
+        </div>
+        </div>
+    <div class="section s4 row">
+        <div class="col-xs-12">
+            <div><img src="Image/girl_82aafb8.jpg" alt=""/></div>
+        </div>
+    </div>
+    <div class="section s5 row">
+        <div class="col-xs-12">
+            <div><img src="Image/phone-shadow_66c16a7.png" alt=""/></div>
+            <div><img src="Image/phone_54af6db.png" alt=""/></div>
+        </div>
+        <div class="text-center text5 col-xs-12">
+            <h4>内存</h4>
+            <h2>有容乃大，酣畅淋漓</h2>
+            <h5>
+                PRO 7 全系标配 4GB+64GB 起步的超大存储空间，
+           <br><br>
+                加上 LPDDR 4X 和 UFS 2.1 的强强联手3，赋予 PRO 7 更加流畅的使用体验。
+            </h5>
+        </div>
+    </div>
+    <div class="section s6 row">
+        <div class="col-xs-5">
+            <div><img src="Image/ball_e64dad5.jpg" alt=""/></div>
+        </div>
+        <div class="text-left text6 col-xs-7">
+            <img src="Image/capacity-logo_c2dc067.png" alt=""/>
+            <h2>人工智能，知你心意</h2>
+            <h5>
+                Flyme 6 自主研发智能思维引擎，自主学习用户操作习惯，根据使用场
+            <br><br>
+                景智能提供高效解决方案，在提升常用应用启动时间的同时，智能查
+            <br><br>
+                杀后台进程，释放系统资源。让您的手机系统更智能、更随性。
+            </h5>
+
+        </div>
+    </div>
+</div>
+    <div id="taste">
+        <div>
+            <p>继续了解</p>
+            <h2>PRO7&nbsp;&bull;&nbsp;参数</h2>
+        </div>
+        <a href="../argument/argument.html"></a>
+    </div>
+    <div id="shadow"></div>
+<div class="container-fluid">
+    <div class="section s8 row">
+        <div class="col-xs-12">
+            <span>注：</span>
+            <ol>
+                <li> Helio X30：PRO 7 标准版采用 Helio P25 处理器，PRO 7 高配版及 PRO 7 Plus 均采用 Helio X30 处理器。</li>
+                <li>100%/50%：数据来源于魅族实验室，产品体验以实际为准。</li>
+                <li>UFS 2.1：PRO 7 标准版采用的是 eMMC 5.1 闪存方案，PRO 7 高配版及 PRO 7 Plus 均采用 UFS 2.1 方案。</li>
+                <li>除非经特殊标注说明，本网站中所涉及的任何数据均为魅族实验室内部测试结果，
+                    在不同的客观环境下，数据会有不同程度的误差，请以实机体验为准。</li>
+            </ol>
+        </div>
+    </div>
+</div>
+<div id="footer" class="container-fluid">
+    <div class="row">
+        <div class="col-xs-9">
+            <div class="ser_list row">
+                <div class="col-xs-3"><img src="Image/sm_07.png" alt=""/><a href="">全场包邮</a></div>
+                <div class="col-xs-3"><img src="Image/sm_02.png" alt=""/><a href="">百城速达</a></div>
+                <div class="col-xs-3"><img src="Image/sm_11.png" alt=""/><a href="">7天无理由退货</a></div>
+                <div class="col-xs-3"><img src="Image/sm_13.png" alt=""/><a href="">15天换货保障</a></div>
+                <div class="col-xs-3"><img src="Image/sm_03.png" alt=""/><a href="">1年免费保修</a></div>
+                <div class="col-xs-3"><img src="Image/sm_05.png" alt=""/><a href="">2300+线下体验店</a></div>
+                <div class="col-xs-3"><img src="Image/sm_10.png" alt=""/><a href="">远程支持服务</a></div>
+                <div class="col-xs-3"><img src="Image/sm_15.png" alt=""/><a href="">上门快修</a></div>
+            </div>
+        </div>
+        <div class="ser_way col-xs-3">
+            <div>24小时全国服务热线</div>
+            <div>400-788-3333</div>
+            <div><img src="Image/sm_18.png" alt=""/>&nbsp;在线客服</div>
+        </div>
+    </div>
+    <div class="clear_fix row">
+        <div class="col-xs-12">
+            <ul class="ft_ul1">
+                <li><a href="">了解魅族</a></li>|
+                <li><a href="">加入我们</a></li>|
+                <li><a href="">联系我们</a></li>|
+                <li><a href="">flyme</a></li>|
+                <li><a href="">魅族社区</a></li>|
+                <li><a href="">天猫旗舰店</a></li>|
+                <li><a href="">问题反馈</a></li>|
+                <li><a href="">线上销售权名单显示</a></li>|
+                <li data-toggle="modal" data-target="#myModal">
+                    <div><img src="Image/china.png" alt=""/></div>
+                    中文
+                </li>
+            </ul>
+            <ul class="ft_ul2">
+                <li>©2017 Meizu Telecom Equipment Co., Ltd. All rights reserved. </li>
+                <li><a href="">粤ICP备13003602号</a></li>
+                <li><a href="">合字B2-20170010</a></li>
+                <li><a href="">营业执照</a></li>
+                <li><a href="">法律声明</a></li>
+                <li><img src="Image/sm_08.png" alt=""/></li>
+                <li><a href="">粤公网安备 44049102496009 号</a></li>
+                <li><img src="Image/sm_01.png" alt=""/></li>
+                <li><img src="Image/sm_06.png" alt=""/></li>
+                <li><img src="Image/sm_04.png" alt=""/></li>
+                <li><img src="Image/sm_09.png" alt=""/></li>
+                <li><img src="Image/sm_14.png" alt=""/></li>
+                <li><img src="Image/sm_12.png" alt=""/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="toolbar all_bot_right container-fluid">
+    <a href="../shoppingcart/gwcym.html" class="toolbar-item toolbar-item-shopping"></a>
+    <a  class="toolbar-item toolbar-item-app">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a href="javascript:scroll(0,0)" id="top" class="toolbar-item toolbar-item-top">
+        <span class="toolbar-layer"></span>
+    </a>
+    <a class="toolbar-item toolbar-item-weixin">
+        <span class="toolbar-layer"></span>
+    </a>
+</div>
+
+<!--6、引入 行为依赖 文件-->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<script src="js/taste.js"></script>
+<script src="js/nav.js"></script>
+
+</body>
+</html>

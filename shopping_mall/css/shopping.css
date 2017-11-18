@@ -1,0 +1,147 @@
+ul {
+  list-style: none;
+}
+h3 {
+  font-size: 15px;
+}
+#plist ul a:last-child {
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 10px;
+  background: transparent;
+  color: #00b3ee;
+  text-decoration: none;
+}
+#plist ul a:last-child:hover {
+  border: 1px solid #00b3ee;
+  padding: 10px;
+  border-radius: 10px;
+  background: #00b3ee;
+  color: #fff;
+  text-decoration: none;
+}
+#plist {
+  margin-bottom: 20px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  perspective: 1000px;
+}
+#plist ul {
+  width: 100%;
+  padding-left: 0;
+}
+#plist ul li {
+  width: 20%;
+  height: 400px;
+  float: left;
+  margin-top: 10px;
+  padding-top: 10px;
+  border: 1px solid transparent;
+  text-align: center;
+}
+#plist ul li img {
+  width: 98%;
+  vertical-align: middle;
+  border: 0;
+}
+#plist ul li p {
+  line-height: 22px;
+  height: 22px;
+  overflow: hidden;
+  width: 100%;
+  margin: 10px;
+  color: #e4393c;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Verdana;
+}
+#plist ul li h1 {
+  padding: 10px;
+  margin: 0px;
+  max-height: 40px;
+  overflow: hidden;
+}
+#plist ul li h1 a {
+  font-weight: normal;
+  font-size: 12px;
+}
+#plist ul li:hover {
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px #eee;
+}
+/*分页*/
+.pager {
+  margin: 15px;
+}
+.pager li.active {
+  border: 1px solid transparent;
+  background: transparent;
+}
+.pager li.active a {
+  color: #e4393c;
+  cursor: default;
+}
+.pager {
+  margin: 15px auto 0;
+}
+.pager li.active {
+  border: 1px solid transparent;
+  background: transparent;
+}
+.pager li.active a {
+  color: #e4393c;
+  cursor: default;
+}
+/****/
+#plist ul li {
+  transform-style: preserve-3d;
+  transition: all .5s linear;
+}
+#plist ul li:hover {
+  transform: translate3d(0, 0, 3px);
+}
+/******/
+#plist ul.list3 li:nth-child(1) h3 {
+  display: none;
+}
+#plist ul.list3 li:nth-child(1) p {
+  display: none;
+}
+#plist ul.list3 li:nth-child(1) a:last-child {
+  display: none;
+}
+#plist ul.list2 li:nth-child(1) h3 {
+  display: none;
+}
+#plist ul.list2 li:nth-child(1) p {
+  display: none;
+}
+#plist ul.list2 li:nth-child(1) a:last-child {
+  display: none;
+}
+#plist ul.list4 li:nth-child(1) h3 {
+  display: none;
+}
+#plist ul.list4 li:nth-child(1) p {
+  display: none;
+}
+#plist ul.list4 li:nth-child(1) a:last-child {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  #plist ul li {
+    width: 100%;
+  }
+  #plist ul.list1 li:nth-child(1):hover {
+    transform: translate3d(0, 0, 1px);
+  }
+  #plist ul li img {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #plist ul li img {
+    width: 100%;
+  }
+}

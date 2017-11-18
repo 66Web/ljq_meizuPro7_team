@@ -1,0 +1,74 @@
+//-----------------------rubbish-way-----
+(()=>{
+    "use strict";
+    var $prd_lists=$(".prd_list"),
+        $products=$(".product");
+    $prd_lists.eq(0).hover(()=>{
+        $products.eq(0).slideDown(500);
+        $(".pt1,.pt2,.pt3").css("display","none");
+        $(".pt0>ul").delay(200).animate({marginLeft:"40%"},500)
+    },()=>{
+        $products.eq(0).hover(
+            ()=>{
+                $products.eq(0).css("display","block")
+            },
+            ()=>{
+                $products.eq(0).css("display","none");
+                $(".pt0>ul").animate({marginLeft:"50%"})
+            }
+        )
+    });
+    $prd_lists.eq(1).hover(()=>{
+        $products.eq(1).slideDown(500);
+        $(".pt0,.pt2,.pt3").css("display","none");
+        $(".pt1>ul").delay(200).animate({marginLeft:"15%"},500)
+    },()=>{
+        $products.eq(1).hover(
+            ()=>{
+                $products.eq(1).css("display","block")
+            },
+            ()=>{
+                $products.eq(1).css("display","none");
+                $(".pt1>ul").animate({marginLeft:"20%"})
+            }
+        )
+    });
+    $prd_lists.eq(2).hover(()=>{
+        $products.eq(2).slideDown(500);
+        $(".pt1,.pt0,.pt3").css("display","none");
+        $(".pt2>ul").delay(200).animate({marginLeft:"40%"},500)
+    },()=>{
+        $products.eq(2).hover(
+            ()=>{
+                $products.eq(2).css("display","block")
+            },
+            ()=>{
+                $products.eq(2).css("display","none");
+                $(".pt2>ul").animate({marginLeft:"50%"})
+            }
+        )
+    });
+    $prd_lists.eq(3).hover(()=>{
+        $products.eq(3).slideDown(500);
+        $(".pt0,.pt2,.pt1").css("display","none");
+        $(".pt3>ul").delay(200).animate({marginLeft:"15%"},500)
+    },()=>{
+        $products.eq(3).hover(
+            ()=>{
+                $products.eq(3).css("display","block")
+            },
+            ()=>{
+                $products.eq(3).css("display","none");
+                $(".pt3>ul").animate({marginLeft:"20%"})
+            }
+        )
+    });
+})()
+//----------------------------nav2-hide----------------
+window.onmousewheel=(e)=>{
+    if(e.wheelDelta<0){
+        $("#nav2").slideUp(500);
+    }else{
+        $("#nav2").slideDown(500);
+    }
+};

@@ -1,0 +1,86 @@
+/*all_bottom_right*/
+.toolbar-item, .toolbar-layer{
+     background: url(../img/all_right.png) no-repeat;
+}
+.all_bot_right{
+     position:fixed;
+	 z-index:1000;
+     right:0px;
+     bottom:50px;
+}
+.toolbar-item{
+     display: block;
+     width:52px;
+     height:52px;
+     margin-top:1px;
+     position:relative;
+     transition: background-position 1s;
+     -webkit-transition: background-position 1s;
+     -moz-transition: background-position 1s;
+     -o-transition: background-position 1s;
+}
+.toolbar-item:hover .toolbar-layer{
+     opacity: 1;
+     transform: scale(1);
+     -webkit-transform: scale(1);
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+}
+.toolbar-item-shopping{
+     background-position: 0 -426px;
+}
+.toolbar-item-shopping:hover{
+     background-position: 0 -488px;
+}
+.toolbar-item-app{
+     background-position: 0 -550px;
+}
+.toolbar-item-app:hover{
+     background-position: 0 -612px;
+}
+.toolbar-item-app .toolbar-layer{
+     height:194px;
+     background-position: 0 -222px;
+}
+.toolbar-item-top{
+     background-position: 0 -674px;
+}
+.toolbar-item-top:hover{
+     background-position: 0 -736px;
+}
+.toolbar-item-weixin{
+     background-position: 0 -798px;
+}
+.toolbar-item-weixin:hover{
+     background-position: 0 -860px;
+}
+.toolbar-item-weixin .toolbar-layer{
+     height:212px;
+     background-position: 0 0;
+}
+.toolbar-layer{
+     position:absolute;
+     right:46px;
+     bottom: -10px;
+     width:172px;
+     opacity: 0;
+     transform-origin:95% 95%;
+     -webkit-transform-origin:95% 95%;
+     -moz-transform-origin:95% 95%;
+     -o-transform-origin:95% 95%;
+     -ms-transform-origin:95% 95%;
+     transform: scale(0.01);
+     -webkit-transform: scale(0.01);
+     -moz-transform: scale(0.01);
+     -o-transform: scale(0.01);
+     -ms-transform: scale(0.01);
+     transition: all 1s;
+     -webkit-transition: all 1s;
+     -moz-transition: all 1s;
+     -o-transition: all 1s;
+}
+@media (max-width: 768px) {
+     .all_bot_right{
+          display: none;
+     }
+}

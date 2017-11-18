@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<!-- 1、指定基础语言 -->
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <!--2、指定视口信息-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!--3、指定跨IE浏览器兼容性-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title></title>
+    <!--4、引入 Bootstrap.Intel-->
+    <link rel="stylesheet" href="css/summary.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/right.css"/>
+    <link rel="stylesheet" href="css/nav.css"/>
+
+    <!--<link rel="stylesheet" href="css/summary.css"/>-->
+    <!--5、引入两个兼容性文件(老IE)-->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!--导航栏-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#d1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="../index/index.html" class="navbar-brand" id="logo"><img src="Image/logo.png" alt=""/></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="d1">
+                <ul class="nav navbar-nav">
+                    <li><a href="../shopping_mall/shopping_mall.html">魅族商城</a></li>
+                    <li class="prd_list">
+                        <a href="#">魅族手机</a>
+                    </li>
+                    <li class="prd_list">
+                        <a href="#">魅蓝手机</a>
+                    </li>
+                    <li class="prd_list">
+                        <a href="#">魅族声学</a>
+                    </li>
+                    <li class="prd_list">
+                        <a href="#">智能·配件</a>
+                    </li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">专卖店</a></li>
+                    <li><a href="#">Flyme</a></li>
+                    <li><a href="#">社区</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="Image/user.png" alt=""/>
+                        </a>
+                        <ul id="login" class="dropdown-menu ">
+                            <li><a href="../regist/login.html">立即登录</a></li>
+                            <li><a href="../regist/register.html">立即注册</a></li>
+                            <li><a href="#">我的订单</a></li>
+                            <li><a href="#">M码通道</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="lgwc">
+                            <img src="Image/cart.png" alt=""/>
+                        </a>
+                        <div class="dropdown-menu" id="sp_cart">
+                            <img src="Image/gwc.png" alt=""/>
+                            <div>
+                                <p> 登录后可显示</p>
+                                <p>您账号中已加入商品哦~</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="product pt0">
+            <ul>
+                <li><a href=""><img src="Image/1.png" alt=""/>魅族PRO7</a></li>
+                <li><a href=""><img src="Image/1.png" alt=""/>魅族Plus</a></li>
+                <li><a href=""><img src="Image/3.png" alt=""/>魅族Pro6s</a></li>
+                <li><a href=""><img src="Image/4.png" alt=""/>魅族MX6</a></li>
+                <li><a href=""><img src="Image/5.png" alt=""/>魅族PRO6</a></li>
+            </ul>
+        </div>
+        <div class="product pt1">
+            <ul>
+                <li><a href=""><img src="Image/11.png" alt=""/>魅蓝A5</a></li>
+                <li><a href=""><img src="Image/12.png" alt=""/>魅蓝E2</a></li>
+                <li><a href=""><img src="Image/13.png" alt=""/>魅蓝5S</a></li>
+                <li><a href=""><img src="Image/14.png" alt=""/>魅蓝NOTE5</a></li>
+                <li><a href=""><img src="Image/15.png" alt=""/>魅蓝X</a></li>
+                <li><a href=""><img src="Image/16.png" alt=""/>魅蓝5</a></li>
+                <li><a href=""><img src="Image/17.png" alt=""/>魅蓝Max</a></li>
+                <li><a href=""><img src="Image/18.png" alt=""/>魅蓝E</a></li>
+            </ul>
+        </div>
+        <div class="product pt2">
+            <ul>
+                <li><a href=""><img src="Image/21.png" alt=""/>魅族Flow</a></li>
+                <li><a href=""><img src="Image/22.png" alt=""/>魅族蓝牙小音箱</a></li>
+                <li><a href=""><img src="Image/23.png" alt=""/>魅族EP2X</a></li>
+                <li><a href=""><img src="Image/24.png" alt=""/>魅族EP52</a></li>
+                <li><a href=""><img src="Image/25.png" alt=""/>魅族HD50</a></li>
+            </ul>
+        </div>
+        <div class="product pt3">
+            <ul>
+                <li><a href=""><img src="Image/31.png" alt=""/>魅族旅行包</a></li>
+                <li><a href=""><img src="Image/32.png" alt=""/>魅族手环</a></li>
+                <li><a href=""><img src="Image/33.png" alt=""/>智能手表MIX</a></li>
+                <li><a href=""><img src="Image/34.png" alt=""/>音乐智能保护套</a></li>
+                <li><a href=""><img src="Image/35.png" alt=""/>魅族盒子</a></li>
+                <li><a href=""><img src="Image/36.png" alt=""/>魅族双肩包</a></li>
+                <li><a href=""><img src="Image/37.png" alt=""/>环窗智能保护套</a></li>
+                <li><a href=""><img src="Image/38.png" alt=""/>路由器极速版</a></li>
+            </ul>
+        </div>
+        <div id="nav2">
+            <ul>
+                <li><a href="Image/">PRO 7</a></li>
+                <li><a href="../index/index.html">首页</a></li>
+                <li><a href="summary.html">概述</a></li>
+                <li><a href="../huaping/huaping.html">画屏</a></li>
+                <li><a href="../design/design.html">设计</a></li>
+                <li><a href="../camera/camera.html">相机</a></li>
+                <li><a href="../taste/taste.html">体验</a></li>
+                <li><a href="../argument/argument.html">参数</a></li>
+                <li><a href="#">立即购买</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--section-->
+    <section>
+        <div id="mw-1">
+            <img src=" img/fAC875G3xtpLmNkPhdSTcVbXrYaW64e1.jpg" alt=""class="mw-f0" />
+            <!--第一个过度-->
+            <img src="img/mw1.jpg" class="mw-f11" alt="" />
+            <img src="img/mw2.jpg" class="mw-f12" alt="" />
+            <img src="img/mw3.jpg" class="mw-f13" alt="" />
+            <img src="img/mw4.jpg" class="mw-f14" alt="" />
+            <img src="img/f98D7F6H5J3L2NzwQRSTUsrpoZanmdkB.jpg" alt="" class="mw-f1"/>
+            <!--第二个过度-->
+            <img src="img/mw5.jpg" class="mw-f21" alt="" />
+            <img src="img/mw6.jpg" class="mw-f22" alt="" />
+            <img src="img/mw7.jpg" class="mw-f23" alt="" />
+            <img src="img/mw8.jpg" class="mw-f24" alt="" />
+            <img src="img/fACDEF6H4J21MN0PzxwtUVWXqonlckig.jpg" alt="" class="mw-f2"/>
+            <!--第三个过度-->
+            <img src="img/mw9.jpg" class="mw-f31" alt="" />
+            <img src="img/mw10.jpg" class="mw-f32" alt="" />
+            <img src="img/mw11.jpg" class="mw-f33" alt="" />
+            <img src="img/mw12.jpg" class="mw-f34" alt="" />
+            <img src="img/mw13.jpg" class="mw-f35" alt="" />
+            <img src="img/mw14.jpg" class="mw-f36" alt="" />
+            <img src="img/mw15.jpg" class="mw-f37" alt="" />
+            <img src="img/mw16.jpg" class="mw-f38" alt="" />
+            <img src="img/mw17.jpg" class="mw-f39" alt="" />
+            <img src="img/fAC76FG4I10LMzyxvRtpoVnmlkibScEH.jpg" alt="" class="mw-f3"/>
+            <!--第四个过度-->
+            <img src="img/section-bg-1_e7c904e-1.jpg" alt="" class="mw-n0"/>
+            <img src="img/phone-2_5e09475.png" alt="" class="mw-n1"/>
+            <img src="img/phone-1_d6080e5.png" alt="" class="mw-n2"/>
+            <div class="mw-n3">
+                <h1>PRO <span>7</span></h1>
+                <h1>双瞳如小窗</h1>
+                <h1>佳景观历历</h1>
+            </div>
+        </div>
+        <!--手机上浮-->
+        <div id="mw-2">
+            <img src="img/phone-3_6e3efd0.png" alt=""/>
+        </div>
+        <!--画屏-->
+        <div id="mw-3">
+            <div>
+                <div>
+                    <span>画屏</span>
+                    <h3>灵犀相通，妙不可言</h3>
+                    <p>不断创新是魅族的追求。<br>画屏的出现，让 PRO 7 更加与众不同。<br>彩色 AMOLED 屏幕搭配专门为画屏设计的交互系统，为您带来不同以往的使用体验。</p>
+                    <a href="#">了解画屏</a>
+                </div>
+                <img src="img/display-phone_6f2e463.png" alt=""/>
+            </div>
+            <!--鸟-->
+            <div>
+                <div id="mw-bird"></div>
+            </div>
+        </div>
+        <!--相机-->
+        <div id="mw-4">
+            <div>
+                <span>相机</span>
+                <h3>双摄如瞳，明眸善睐</h3>
+                <p>双摄像头的加入，令 PRO 7 创造了魅族的影像新高度。<br>更好的夜景画质、更丰富的画面细节以及精心调校的虚化算法，让您的每一下快门，都是一次艺术之旅。</p>
+                <a href="#">了解相机</a>
+            </div>
+            <div>
+                <img src="img/camera_096b936.jpg" alt=""/>
+            </div>
+        </div>
+        <!--设计-->
+        <div id="mw-5">
+            <div>
+                <span>设计</span>
+                <h3>美不胜收，爱不释手</h3>
+                <p>细密优雅的拉丝纹理<sup>1</sup>，更为贴边的天线处理，<br>
+                    红外感应器与听筒合二为一的简约设计，无处不体现着魅族对于设计的思考与追求。<br>
+                    我们在前代产品的基础上加以推敲提炼，用更精巧的细节摄人心魄。</p>
+                <a href="#">了解设计</a>
+            </div>
+        </div>
+        <!--屏幕-->
+        <div id="mw-6" class="container-fluid">
+            <div class="row">
+                <div class="mw-phone1 col-sm-5 col-sm-offset-1">
+                    <span>屏幕</span>
+                    <h3>大有可观，小有可为</h3>
+                    <p>我们希望 PRO 7 为您带来的视觉享受不仅仅停留在设计上，屏幕也应如此。<br>
+                        超广色域和超高对比度所带来的视觉冲击，让您一眼沉浸。</p>
+                    <div >
+                        <em >5.2 / 5.7</em>
+                        <strong >英寸</strong>
+                        <i ></i>
+                        <em >10000:1</em>
+                        <strong >对比度</strong>
+                        <i ></i>
+                        <em >103%</em>
+                        <strong >NTSC 色域</strong>
+                    </div>
+                </div>
+                <div class="mw-phone2 col-sm-5">
+                    <img src="img/phone-5_68633cc.png" alt=""/>
+                    <img src="img/phone-4_c3bbab9.png" alt=""/>
+                </div>
+            </div>
+        </div>
+        <!--体验-->
+        <div id="mw-7">
+            <div class="mw-img1">
+                <span>体验</span>
+                <h3>强劲性能，持久动力</h3>
+                <p>PRO 7 标准版搭载了高性能低功耗的 Helio P25 处理器，<br>PRO 7 高配版及 PRO 7 Plus 则采用了更先进的 10 纳米制程工艺的 Helio X30 处理器，<br>在大幅提高性能的同时，显著降低功耗。无论是日常使用，还是运行大型游戏时，PRO 7 都能轻松应对，畅快持久。</p>
+                <a href="#">了解体验</a>
+            </div>
+            <div class="mw-img2">
+                <img src="img/x30_189b6fa.jpg" alt=""/>
+                <div class="s1_cover"></div>
+            </div>
+        </div>
+        <!--mCharge 4.0-->
+        <div id="mw-8">
+            <div>
+                <span>mCharge 4.0</span>
+                <h3>上善若水，不止于快</h3>
+                <p>我们为 PRO 7 配备了 mCharge 快充技术，<br>同时为电池容量更大的 PRO 7 Plus 带来了更快更低温的 mCharge 4.0，<br>在提升充电速率的同时，还将发热降低了 33%<sup>2</sup>。让您在出行时可以告别焦虑，回归从容。</p>
+            </div>
+            <img src="img/mCharge_606261d.jpg" alt=""/>
+        </div>
+        <!--PRO 7 Plus 快充温度对比图-->
+        <div id="mw-9">
+            <div>
+                <h4>PRO 7 Plus 快充温度对比图</h4>
+            </div>
+            <div class="mw-pro">
+                <div class="mw-p1"></div>
+                <div class="mw-p2"></div>
+                <div class="mw-p3"></div>
+            </div>
+        </div>
+        <!--mTouch-->
+        <div id="mw-10" class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <span>mTouch</span>
+                    <h3>指尖轻点，安全随行</h3>
+                    <p>这一次，备受喜爱的 mTouch 又有了新的升级。<br>我们将指纹识别速度提升了25%<sup>2</sup>，不止于此，<br>除了支付宝和微信外，我们还覆盖了更多的支付场景。<br>更快更便捷的指纹支付，PRO 7 为您呈现。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--继续了解-->
+    <div id="mw-11">
+        <div>
+            <p>继续了解</p>
+            <h2>PRO7&nbsp;&bull;&nbsp;画屏</h2>
+        </div>
+        <a href="../huaping/huaping.html"></a>
+    </div>
+    <div id="shadow"></div>
+    <!-- remark -->
+    <div id="mw-12">
+        <div>
+            <ul>
+                <li>注：</li>
+                <li>
+                    1. 拉丝纹理：只有曜影黑、倚霞金、月光银三种颜色的机型采用了亮面拉丝工艺。
+                </li>
+                <li>
+                    2. 33% / 25%：数据来源于魅族实验室，产品体验以实际为准。
+                </li>
+                <li>
+                    3. 本网站里所呈现的配图素材、产品型号、测试数据、功能性能、规格参数等仅供参考，魅族有可能对上述内容进行改进，所有的具体信息请参照产品实物、产品说明书。<br>
+                    &emsp;除非经特殊标注说明，本网站中所涉及的任何数据均为魅族实验室内部测试结果，在不同的客观环境下，数据会有不同程度的误差，请以实机体验为准。
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--footer-->
+    <div id="footer" class="container-fluid">
+        <div class="row">
+            <div class="col-xs-9">
+                <div class="ser_list row">
+                    <div class="col-xs-3"><img src="img/sm_07.png" alt=""/><a href="">全场包邮</a></div>
+                    <div class="col-xs-3"><img src="img/sm_02.png" alt=""/><a href="">百城速达</a></div>
+                    <div class="col-xs-3"><img src="img/sm_11.png" alt=""/><a href="">7天无理由退货</a></div>
+                    <div class="col-xs-3"><img src="img/sm_13.png" alt=""/><a href="">15天换货保障</a></div>
+                    <div class="col-xs-3"><img src="img/sm_03.png" alt=""/><a href="">1年免费保修</a></div>
+                    <div class="col-xs-3"><img src="img/sm_05.png" alt=""/><a href="">2300+线下体验店</a></div>
+                    <div class="col-xs-3"><img src="img/sm_10.png" alt=""/><a href="">远程支持服务</a></div>
+                    <div class="col-xs-3"><img src="img/sm_15.png" alt=""/><a href="">上门快修</a></div>
+                </div>
+            </div>
+            <div class="ser_way col-xs-3">
+                <div>24小时全国服务热线</div>
+                <div>400-788-3333</div>
+                <div><img src="img/sm_18.png" alt=""/>&nbsp;在线客服</div>
+            </div>
+        </div>
+        <div class="clear_fix row">
+            <div class="col-xs-12">
+                <ul class="ft_ul1">
+                    <li><a href="">了解魅族</a></li>|
+                    <li><a href="">加入我们</a></li>|
+                    <li><a href="">联系我们</a></li>|
+                    <li><a href="">flyme</a></li>|
+                    <li><a href="">魅族社区</a></li>|
+                    <li><a href="">天猫旗舰店</a></li>|
+                    <li><a href="">问题反馈</a></li>|
+                    <li><a href="">线上销售权名单显示</a></li>|
+                    <li data-toggle="modal" data-target="#myModal">
+                        <div><img src="img/china.png" alt=""/></div>
+                        中文
+                    </li>
+                </ul>
+                <ul class="ft_ul2">
+                    <li>©2017 Meizu Telecom Equipment Co., Ltd. All rights reserved. </li>
+                    <li><a href="">粤ICP备13003602号</a></li>
+                    <li><a href="">合字B2-20170010</a></li>
+                    <li><a href="">营业执照</a></li>
+                    <li><a href="">法律声明</a></li>
+                    <li><img src="img/sm_08.png" alt=""/></li>
+                    <li><a href="">粤公网安备 44049102496009 号</a></li>
+                    <li><img src="img/sm_01.png" alt=""/></li>
+                    <li><img src="img/sm_06.png" alt=""/></li>
+                    <li><img src="img/sm_04.png" alt=""/></li>
+                    <li><img src="img/sm_09.png" alt=""/></li>
+                    <li><img src="img/sm_14.png" alt=""/></li>
+                    <li><img src="img/sm_12.png" alt=""/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--右边固定条-->
+    <div class="toolbar all_bot_right container-fluid">
+        <a href="../shoppingcart/gwcym.html" class="toolbar-item toolbar-item-shopping"></a>
+        <a  class="toolbar-item toolbar-item-app">
+            <span class="toolbar-layer"></span>
+        </a>
+        <a href="javascript:scroll(0,0)" id="top" class="toolbar-item toolbar-item-top">
+            <span class="toolbar-layer"></span>
+        </a>
+        <a  class="toolbar-item toolbar-item-weixin">
+            <span class="toolbar-layer"></span>
+        </a>
+    </div>
+<!--6、引入 行为依赖 文件-->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+    <script src="js/mw.js"></script>
+    <script src="js/nav.js"></script>
+
+</body>
+</html>

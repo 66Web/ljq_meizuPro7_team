@@ -1,0 +1,83 @@
+body li{
+    list-style-type: none;
+}
+/*标志*/
+#lmz{
+    color:#0CBBEF;
+}
+/*导航条*/
+#ldht a{
+    color: #515151 ;
+}
+#ldht a:hover{
+    color:#31A5E7 ;
+}
+#ldht img{
+    width:80%;
+}
+/*导航条商品*/
+#lmzsj,#lmlsj,#lmzsx,#lznpj{
+    position: relative;
+}
+#lmzsj1>ul,#lmlsj1>ul,#lmzsx1>ul,#lznpj1>ul{
+    display: flex;
+    text-align: center;
+    padding-left: 0;
+}
+#lmzsj1{
+    width:600px;
+    left: -86px;
+}
+#lmlsj1{
+    width: 800px;
+    left: -172px;
+}
+#lmzsx1{
+    width: 600px;
+    left: -258px;
+}
+#lznpj1{
+    width: 800px;
+    left: -345px;
+}
+/*登录*/
+#ldl{
+    position: relative;
+}
+#ldl1{
+    padding: 0;
+    text-align:center;
+    border: 1px solid #ddd;
+    position: absolute;
+    width: 150px;
+    left: -50px;
+}
+#ldl1>li{
+    padding:10px 15px;
+}
+/*购物车*/
+#lgwc1{
+    width: 300px;
+}
+#lgwc1>img{
+    width: auto;
+    float: left;
+    padding: 15px;
+}
+#lgwc1 div{
+    display: inline-block;
+}
+#lgwc1 p{
+    margin:0;
+}
+.fade{
+    height:0;
+    opacity:0;
+    overflow:hidden;
+    transition:all .5s linear;
+}
+.in{
+    height:152px;
+    opacity:1;
+}
+
